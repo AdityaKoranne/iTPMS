@@ -1,3 +1,10 @@
+//Tach1 = Front Left
+//Tach2 = Front Right
+//Tach3 = Rear Left
+//Tach4 = Rear Right
+//SAS1 = Absolute Steerting Angle Encoder
+//SAS2 = Potentiometer as Steering Angle
+
 if Tach1=!Tach2 && SAS1=SAS2=0 degree || Tach3=!Tach4 and SAS1=SAS2=0 degree
   print ('Tire Pressure Warning!')
 elseif Tach1>Tach2 && SAS1=SAS2=0 degree
