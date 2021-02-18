@@ -1,8 +1,9 @@
 They are rotary encoders.
-There has to be at least 2 Steering Angle Sensors (SAS) for the purpose of redundancy and verification of the signals at every time step.
+Position Sensing: Absolute Encoder (Code rings with binary weightings the provide data word), Potentiometer 
+Rate of Rotation Sensing: Incremental Encoder (Quadrature type provide bidirectional sensing capability as well as rate of rotation just like tachometer pulse signals)
+There has to be at least 2 Steering Angle Sensors (SAS) for the purpose of redundancy and verification of the signals at every time step, for both angle detection and rate detection.
 OPTICAL SENSOR: Quadrature type: Use of LED, Infrared source with splitter disc to count the steering angle rotation
 HALL EFFECT SENSOR: Quadrature type: Use of Hall effect sensor with gear to count the steering angle rotation
 They are externally powered and output measures between 0-5V. Can be between -5V to +5V. 
 The 2 sensors are offset to read different values at any steering position to verify the sensor data. For example, when steering is at 0 degree, SAS1 will read 2.8V and SAS2 will 0.4.
-Position Sensing: Absolute Encoder (Code rings with binary weightings the provide data word), Potentiometer 
-Rate of Rotation Sensing: Incremental Encoder (Quadrature type provide bidirectional sensing capability as well as rate of rotation just like tachometer pulse signals)
+
