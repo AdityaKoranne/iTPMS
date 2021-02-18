@@ -1,0 +1,11 @@
+if Tach1=!Tach2 && SAS1=SAS2=0 degree || Tach3=!Tach4 and SAS1=SAS2=0 degree
+  print ('Tire Pressure Warning!')
+elseif Tach1>Tach2 && SAS1=SAS2=0 degree
+  print('Front Left Tire Under Inflated!')
+elseif Tach1<Tach2 and SAS1=SAS2=0 degree
+  print ('Front Right Tire Under Inflated!')
+elseif Tach3>Tach4 && SAS1=SAS2=0 degree 
+  print ('Rear Left Tire Under Inflated!')
+elseif Tach3<Tach3 && SAS1=SAS2=0 degree 
+  print ('Rear Right Tire Under Inflated!')
+end
