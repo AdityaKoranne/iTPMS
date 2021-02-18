@@ -2,7 +2,7 @@
 //Tach2 = Front Right Wheel
 //Tach3 = Rear Left Wheel
 //Tach4 = Rear Right Wheel
-//SAS1 = Absolute Steerting Angle Encoder
+//SAS1 = Absolute Steering Angle Encoder
 //SAS2 = Potentiometer as Steering Angle
 
 if Tach1=!Tach2 && SAS1=SAS2=0 degree || Tach3=!Tach4 and SAS1=SAS2=0 degree
