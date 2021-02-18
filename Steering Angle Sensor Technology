@@ -1,0 +1,5 @@
+There has to be at least 2 Steering Angle Sensors (SAS) for the purpose of redundancy and verification of the signals at every time step
+OPTICAL SENSOR: Quadrature type: Use of LED, Infrared source with splitter disc to count the steering angle rotation
+HALL EFFECT SENSOR: Quadrature type: Use of Hall effect sensor with gear to count the steering angle rotation
+They are externally powered and output measures between 0-5V. Can be between -5V to +5V. 
+The sensors are offset to read different values for any steering position. For example, when steering is at 0 degree, SAS1 will read 2.8V and SAS2 will 0.4V
