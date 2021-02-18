@@ -1,7 +1,7 @@
-//Tach1 = Front Left
-//Tach2 = Front Right
-//Tach3 = Rear Left
-//Tach4 = Rear Right
+//Tach1 = Front Left Wheel
+//Tach2 = Front Right Wheel
+//Tach3 = Rear Left Wheel
+//Tach4 = Rear Right Wheel
 //SAS1 = Absolute Steerting Angle Encoder
 //SAS2 = Potentiometer as Steering Angle
 
